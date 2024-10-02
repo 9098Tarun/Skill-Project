@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Info Box</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="info-box">
+        <span class="jee-text">JEE</span>
+        <div class="button-container">
+            <a href="jee.pdf" download> <button>Syllabus</button></a>
+           
+            <button>Notification</button>
+            <button onclick="toggleDescription()">Description</button>
+        </div>
+        <div class="description" id="description">
+            The Joint Entrance Examination (JEE) is a National-level engineering entrance exam for admission to IITs, NITs and IIITs testing Physics, Chemistry and Methematics knowledge and problem solving skills.
+        </div>
+    </div> <br><br>
+
+    <div class="info-box">
+      <span class="jee-text">IISER</span>
+      <div class="button-container">
+          <button>Syllabus</button>
+          <button>Notification</button>
+          <button onclick="neettoggleDescription()">Description</button>
+      </div>
+      <div class="description" id="neetdescription">
+          The Indian Institute of Science Education and research exam is a national leve entrance test for admission to IISERs assessing Science and Mathematics knowledge for undergraduate programs. 
+      </div>
+  </div><br><br>
+
+  <div class="info-box">
+    <span class="jee-text">BITSAT</span>
+    <div class="button-container">
+        <button>Syllabus</button>
+        <button>Notification</button>
+        <button onclick="bitsattoggleDescription()">Description</button>
+    </div>
+    <div class="description" id="bitsatdescription">
+      BITSAT is an online entrance exam for admission to BITS Pilani and its campuses. It tests proficiency in physics, chemistry, mathematics, and English, assessing problem-solving and analytical skills.
+    </div>
+</div><br><br>
+
+<div class="info-box">
+  <span class="jee-text">NEST</span>
+  <div class="button-container">
+      <button>Syllabus</button>
+      <button>Notification</button>
+      <button onclick="nesttoggleDescription()">Description</button>
+  </div>
+  <div class="description" id="nestdescription">
+    NEST is a national entrance test for admission to integrated M.Sc. programs in premier institutions. It assesses knowledge in biology, chemistry, mathematics, and physics, focusing on critical thinking and problem-solving skills.
+  </div>
+</div>
+    <script src="index.js"></script><br><br><br><br><br><br><br>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 80px;
+    left: 35%;
+}
+
+.info-box {
+    
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: height 0.3s ease;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.jee-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.button-container button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+.description {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
